@@ -13,8 +13,8 @@ const index = () => {
           <button>Facebook</button>
         </div>
         <div className={Styles.buttonCont}>
-          <img className={Styles.instagramImg} srch={InstagramLogo}/>
-          <button>instagram</button>
+          <img className={Styles.instaImg} src={InstagramLogo} />
+          <button>Instram</button>
         </div>
         <div className={Styles.buttonCont}>
           <img className={Styles.whatsImg} src={WhasappLogo}/>

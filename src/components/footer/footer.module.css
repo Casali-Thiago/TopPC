@@ -8,12 +8,15 @@
     
 }
 .footerTop{
+    display: flex;
     height: 250px;
     width: 100%;
     background-color: #0c0c0c;
-    flex-direction: column-reverse;
+    flex-direction:column;
+    align-items: flex-end;
 }
 .footerBottom{
+    display: flex;
     height: 100px;
     width: 100%;
     background-color: #424242;
@@ -22,6 +25,10 @@
 .facebookImg{
     height: 35px;
     background-color: white;
+}
+.instaImg{
+    height: 35px;
+    
 }
 
 .whatsImg{
