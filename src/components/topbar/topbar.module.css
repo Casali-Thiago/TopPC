@@ -177,6 +177,8 @@
     position: relative;
     margin-left: 650px;
     width: 150px;
+    cursor: pointer;
+    color: #c5c5c5; 
 }
 
 .cartBar{
@@ -201,6 +203,7 @@
     width: 100%;
     border: none;
     background-color: transparent;
+    color: #c5c5c5;
 }
 
 .ButtonsCont:hover{

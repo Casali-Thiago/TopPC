@@ -4,9 +4,9 @@ import Styles from './login.module.css'
 function index() {
   return (
     <div className={Styles.loginScreen}>
-        <span>Login</span>
+        <span className={Styles.loginTitle}>Login</span>
         <form>
-            <div>
+            <div className={Styles.userBox}>
             <input type="text" name="" required="" />
             <label>Username</label>
             </div>

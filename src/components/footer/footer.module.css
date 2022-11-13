@@ -10,11 +10,20 @@
 .footerTop{
     height: 250px;
     width: 100%;
-    background-color: black;
+    background-color: #0c0c0c;
+    flex-direction: column-reverse;
 }
 .footerBottom{
     height: 100px;
     width: 100%;
     background-color: #424242;
 
+}
+.facebookImg{
+    height: 35px;
+    background-color: white;
+}
+
+.whatsImg{
+    height: 35px;
 }

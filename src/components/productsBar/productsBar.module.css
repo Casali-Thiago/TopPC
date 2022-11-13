@@ -21,6 +21,9 @@
     width: 15%;
     display: flex;
 }
+.decriptionProduct{
+    color: #c5c5c5; 
+}
 
 .MouseSale{
     height: 200px;
