@@ -11,10 +11,10 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<MainPage />} />
-        <Route path='/' element={<LoginPage />} />
+        <Route path='login' element={<LoginPage />} />
         <Route path="/" element={<ProductsBar />} />
         <Route path="/" element={<Footer />} />
-      </Routes>
+      </Routes>  
     </Router>
   );
 }

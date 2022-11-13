@@ -3,7 +3,6 @@ import Styles from './topbar.module.css'
 import Search from '../../assets/icons-search.png'
 import CartIcon from '../../assets/cart-icon.png'
 import MainLogo from '../../assets/logoMain.png'
-import LoginPage from '../../pages/login/index.js'
 
 function Index() {
     const [topBarActive, setTopBarActive] = useState(false)
@@ -43,7 +42,7 @@ function Index() {
                     </div>
                 </div>
                 <div className={Styles.AccountCont}>
-                    <a href={LoginPage} className={Styles.nameAccount}>Login</a>
+                    <a href="login" className={Styles.nameAccount}>Login</a>
                 </div>
                 <div>
                     <div className={Styles.cartBar}>

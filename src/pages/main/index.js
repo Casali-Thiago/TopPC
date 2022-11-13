@@ -1,8 +1,8 @@
 import React from "react";
 import Styles from './main.module.css'
 import TopBar from '../../components/topbar/index'
-import ProductsBar from '../../components/productsBar/index'
-import MainIMG from '../../assets/blackfriday.png'
+import ProductsBar from '../../components/productsBar'
+import MainIMG from '../../assets/banner.png'
 import Footer from '../../components/footer/index'
 
 
