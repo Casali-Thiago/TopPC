@@ -12,6 +12,8 @@
 }
 .loginTitle{
     font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 .loginScreen .loginTitle{
     margin: 0 0 30px;
@@ -44,4 +46,58 @@
     color: #fff;
     pointer-events: none;
     transition: .5s;
+}
+.btnSubmit{
+    align-items: center;
+    height: 30px;
+    width: 75px;
+    display: flex;
+    border: 2px solid;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer; 
+}
+.loginScreen .userBox input:focus ~ label,
+.loginScreen .userBox input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+.loginScreen form a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+
+.loginScreen a:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+.loginScreen a span{
+    position: absolute;
+    display: block;
+}
+
+.loginScreen a span:nth-last-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, trasparent, #03e9f4 );
 }
