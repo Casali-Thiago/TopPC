@@ -16,7 +16,7 @@
   if(isset($_POST['submit'])&&!empty($_POST['submit'])){
     
     $sql = "insert into public.users(
-       username, passhash)values('".$_POST['username']."','".md5($_POST['passhash'])."')";
+       username, passhash, email)values('".$_POST['username']."','".$_POST['email']."','".md5($_POST['passhash'])."')";
   $ret = pg_query($dbconn, $sql);
   if($ret){
       

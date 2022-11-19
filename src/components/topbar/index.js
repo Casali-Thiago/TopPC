@@ -42,7 +42,7 @@ function Index() {
                     </div>
                 </div>
                 <div className={Styles.AccountCont}>
-                    <a href="login" className={Styles.nameAccount}>Login</a>
+                    <a  href="login" className={Styles.nameAccount}>Login</a>
                 </div>
                 <div>
                     <div className={Styles.cartBar}>

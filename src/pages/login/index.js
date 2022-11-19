@@ -8,7 +8,7 @@ function Login() {
       <span className={Styles.loginTitle}>Login</span>
 
 
-      <form action='http://localhost:8000/codigos/teste.php' method="post" >
+      <form action='http://localhost:8000/codigos/login.php' method="post" >
 
         <div className={Styles.userBox}>
           <input 

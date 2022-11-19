@@ -1,3 +1,6 @@
+@media screen and (min-width: 769px) {
+
+
 .ProductsSlide{
     display: grid;
     background-color: #2e2e2e;
@@ -42,4 +45,52 @@
     width: 105em;
     height: 300px;
     margin-top: 56px;
+}
+}
+@media screen and (max-width: 769px) {
+    .ProductsSlide{
+        display: grid;
+        background-color: #2e2e2e;
+        width: 105em;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 10px ;
+        margin-right: 100px;
+    }
+    .productsItem{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        background-color: #2e2e2e;
+        height: 300px;
+        gap: 30px;
+    }
+    .itemSelect{
+        flex-direction: column;
+        height: 360px;
+        width: 15%;
+        display: flex;
+    }
+    .decriptionProduct{
+        color: #c5c5c5; 
+    }
+    
+    .MouseSale{
+        height: 200px;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    .itemSale{
+        gap: 20px;
+        width: 250px;
+        
+    }
+    .promoProducts{
+        margin-top: 56px;
+        display: grid;
+        background-color: #2e2e2e;
+        width: 105em;
+        height: 300px;
+        margin-top: 56px;
+    }
 }
